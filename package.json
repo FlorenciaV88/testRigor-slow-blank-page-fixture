@@ -1,0 +1,16 @@
+{
+  "name": "testrigor-slow-blank-page-fixture",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Deterministic HTTP fixtures for testing testRigor blank-page loading timeout behavior.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

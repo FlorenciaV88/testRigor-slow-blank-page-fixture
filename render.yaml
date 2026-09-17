@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: testrigor-slow-blank-page-fixture
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthy
+    autoDeploy: true
